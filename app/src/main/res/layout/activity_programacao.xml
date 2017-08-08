@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.syntaxmobile.feiragera.Programacao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/programacao" />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O evento acontecerá de 21 a 24 de setembro no Centro de Eventos da Unoesc – Campus I e marca a comemoração dos 77 anos da ACIOC e os 100 anos do município de Joaçaba. Serão quatro dias de evento aberto ao público gerando conhecimento, negócios e grandes parcerias. Uma grande estrutura será montada para a realização de diversas ações simultâneas durante o evento, como exposições, palestras, workshops, sessão de negócio e discussões para geração de ideias e oportunidades."
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" A programação oficial será divulgada em breve. "
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</FrameLayout>

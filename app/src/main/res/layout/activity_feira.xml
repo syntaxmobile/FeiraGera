@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.com.syntaxmobile.feiragera.Feira">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back3"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/a_feira" />
+
+            <TextView
+                android:id="@+id/txvParagrafo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No ano em que Joaçaba comemora seus 100 anos, a Feira GERA 2017, promovida pela ACIOC e em sua segunda edição, será o grande evento que promoverá o município para toda a região e fortalecerá o espírito da inovação, competitividade e desenvolvimento sustentável para todo o estado de Santa Catarina."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txvParagrafo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Destaca-se também que a GERA 2017 está em acordo com os Eixos de Desenvolvimento do Polo Inovale e do Centro de Inovação que está sendo construído em Joaçaba."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txvParagrafo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="No cenário econômico, a GERA 2017 pretende fortalecer a geração de negócios entre empresas inovadoras e fortalecer a prática da inovação e do empreendedorismo junto à sociedade."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txvParagrafo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Em 2017 a Feira GERA acontecerá de 21 a 24 de setembro no Centro de Eventos da Unoesc – Campus I com uma estimativa de público superior a 10 mil pessoas entre empresários, autoridades, líderes, formadores de opinião, imprensa e comunidade em geral."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/iv2015"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/numeros2015" />
+
+            <TextView
+                android:id="@+id/txvParagrafo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Em 2015, aproximadamente 5 mil pessoas visitaram a Feira GERA que aconteceu de 17 a 20 de Setembro no Pavilhão Frei Bruno em Joaçaba. Na ocasião, o evento teve a participação de 36 empresas expositoras dos estados de Santa Catarina, Paraná, Rio Grande do Sul e São Paulo."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txvParagrafo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Na área dos negócios e práticas de conhecimento, foram 25 workshops e palestras e uma Sessão de Negócios com a participação de 42 empresas."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <!-- Layout Para slide de imagens -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ViewFlipper
+                    android:id="@+id/vfImagens"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:autoStart="true"> <!-- Faz com que inicie os slides automaticamente -->
+
+                    <ImageView
+                        android:id="@+id/mvImagem1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem1" />
+
+                    <ImageView
+                        android:id="@+id/mvImagem2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem2" />
+
+                    <ImageView
+                        android:id="@+id/mvImagem3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem3" />
+
+                    <ImageView
+                        android:id="@+id/mvImagem4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem4" />
+
+                    <ImageView
+                        android:id="@+id/mvImagem5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem5" />
+
+                    <ImageView
+                        android:id="@+id/mvImagem6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/imagem6" />
+
+                </ViewFlipper>
+            </LinearLayout>
+            <!-- Fim Layout Para slide de imagens -->
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "509199819646",
+    "firebase_url": "https://feira-gera-e3e91.firebaseio.com",
+    "project_id": "feira-gera-e3e91",
+    "storage_bucket": "feira-gera-e3e91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509199819646:android:40d04b41e8fd6d2b",
+        "android_client_info": {
+          "package_name": "br.com.syntaxmobile.feiragera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509199819646-mnb9v79ucbbu0qatdarrshaticvcabda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcxY2SXiClC8KgCF4Dykyp5f9noZeYbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
