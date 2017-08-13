@@ -1,69 +1,27 @@
 package br.com.syntaxmobile.feiragera;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 
-public class Expositores extends AppCompatActivity implements View.OnClickListener {
+public class Expositores extends AppCompatActivity {
+
+    ImageView prefeitura, sebrae, unoesc, fiesc, irani, pioneiro, itl, scherer, sesc, senac, jrc, italiana, village, contassesc,
+            tricam, redux, odeme, newonk, newmedical, eco, unifique, pormalmed, ifc, inovale, tirol, botequim, brollo, degustare,
+            dongeraldo, espaco_gourmet, estacao_cafe, estacao_pastel, hotel_jaragua, nipon, srbuteco, totti, vintage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.expositores);
+        setContentView(R.layout.activity_expositores);
 
-        // EXPOSITORES
-
-        ImageView pref_joacaba = (ImageView) findViewById(R.id.prefjoacaba);
-        pref_joacaba.setOnClickListener(this);
-
-        ImageView sebrae = (ImageView) findViewById(R.id.sebrae);
-        sebrae.setOnClickListener(this);
-
-        // GERA GOURMET
-
-        ImageView botequim = (ImageView) findViewById(R.id.botequim);
-        botequim.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
-
-        String url;
-        Intent it;
-
-        switch (view.getId()) {
-
-            // EXPOSITORES
-
-            case R.id.prefjoacaba:
-                url = "http://www.joacaba.sc.gov.br/";
-                it = new Intent(Intent.ACTION_VIEW);
-                abrirURL(url, it);
-                break;
-
-            case R.id.sebrae:
-                url = "http://www.sebrae.com.br/";
-                it = new Intent(Intent.ACTION_VIEW);
-                abrirURL(url, it);
-                break;
-
-            // GERA GOURMET
-
-            case R.id.botequim:
-                url = "http://botequimdobaptista.com/";
-                it = new Intent(Intent.ACTION_VIEW);
-                abrirURL(url, it);
-                break;
-
-        }
-
-    }
-
-    private void abrirURL(String url, Intent it) {
-        it.setData(Uri.parse(url));
-        startActivity(it);
+        prefeitura = (ImageView) findViewById(R.id.ivPref_joacaba);
+        sebrae = (ImageView) findViewById(R.id.ivSebrae);
+        unoesc = (ImageView) findViewById(R.id.ivUnoesc);
+        fiesc = (ImageView) findViewById(R.id.ivFiesc);
+        irani = (ImageView) findViewById(R.id.ivIrani);
+        pioneiro = (ImageView) findViewById(R.id.ivPioneiro);
+        itl = (ImageView) findViewById(R.id.ivItl);
+        scherer = (ImageView) findViewById(R.id.ivScherer);
     }
 }
