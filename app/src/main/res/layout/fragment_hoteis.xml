@@ -8,12 +8,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/back1"
         tools:context="br.com.syntaxmobile.feiragera.Utilidade$PlaceholderFragment">
 
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/back3">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -26,7 +23,6 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
                     android:text="Brollo Lanches"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
@@ -38,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="20dp"
                     android:text="Av. Santa Terezinha, 163 – Centro"
                     android:textColor="#ffffff" />
 
@@ -48,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="40dp"
                     android:text="(49) 3522-1323"
                     android:textColor="#ffffff" />
             </RelativeLayout>
@@ -56,7 +52,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="30dp"
                 android:padding="8dp">
 
                 <TextView
@@ -95,7 +91,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="140dp"
+                android:layout_marginTop="90dp"
                 android:padding="8dp">
 
                 <TextView
@@ -134,7 +130,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="210dp"
+                android:layout_marginTop="150dp"
                 android:padding="8dp">
 
                 <TextView
@@ -173,7 +169,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="280dp"
+                android:layout_marginTop="220dp"
                 android:padding="8dp">
 
                 <TextView
@@ -212,7 +208,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="350dp"
+                android:layout_marginTop="290dp"
                 android:padding="8dp">
 
                 <TextView
@@ -248,10 +244,11 @@
                     android:textColor="#ffffff" />
             </RelativeLayout>
 
+
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="420dp"
+                android:layout_marginTop="360dp"
                 android:padding="8dp">
 
                 <TextView
@@ -290,7 +287,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="490dp"
+                android:layout_marginTop="430dp"
                 android:padding="8dp">
 
                 <TextView
@@ -329,7 +326,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="560dp"
+                android:layout_marginTop="500dp"
                 android:padding="8dp">
 
                 <TextView
@@ -368,7 +365,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="630dp"
+                android:layout_marginTop="570dp"
                 android:padding="8dp">
 
                 <TextView
@@ -407,7 +404,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="700dp"
+                android:layout_marginTop="640dp"
                 android:padding="8dp">
 
                 <TextView
@@ -446,7 +443,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="770dp"
+                android:layout_marginTop="710dp"
                 android:padding="8dp">
 
                 <TextView
@@ -485,7 +482,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="840dp"
+                android:layout_marginTop="780dp"
                 android:padding="8dp">
 
                 <TextView
@@ -524,7 +521,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="910dp"
+                android:layout_marginTop="850dp"
                 android:padding="8dp">
 
                 <TextView
@@ -563,7 +560,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="980dp"
+                android:layout_marginTop="920dp"
                 android:padding="8dp">
 
                 <TextView
@@ -602,7 +599,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="1050dp"
+                android:layout_marginTop="990dp"
                 android:padding="8dp">
 
                 <TextView
@@ -624,7 +621,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="60dp"
-                    android:text="Rua Duque de Caxias, 2578 - Centro – Catanduvas"
+                    android:text="Rua Duque de Caxias, 2578 Centro, Catanduvas"
                     android:textColor="#ffffff" />
 
                 <TextView
@@ -633,11 +630,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="95dp"
                     android:text="(49) 3525-0639"
                     android:textColor="#ffffff" />
             </RelativeLayout>
-
         </FrameLayout>
-    </FrameLayout>
 </ScrollView>
