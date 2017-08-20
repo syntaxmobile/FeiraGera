@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Expositores extends AppCompatActivity implements View.OnClickListener {
 
@@ -93,6 +94,9 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         totti.setOnClickListener(this);
         vintage = (ImageView) findViewById(R.id.ivVintage);
         vintage.setOnClickListener(this);
+
+        //Mostra uma mensagem na parte inferior da tela para clicar na imagem para abrir o respectivo site do expositor
+        Toast.makeText(getApplicationContext(),"Clique na imagem para abrir o site do Expositor", Toast.LENGTH_LONG).show();
     }
 
     @Override
