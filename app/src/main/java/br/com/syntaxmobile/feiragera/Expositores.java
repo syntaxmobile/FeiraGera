@@ -99,6 +99,8 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         Toast.makeText(getApplicationContext(),"Clique na imagem para abrir o site do Expositor", Toast.LENGTH_LONG).show();
     }
 
+    //Criando uma intent para cada logo para abrir sua respectiva página. A ACTION_VIEW mostra direto do navegador padrão do aparelho do usuário
+
     @Override
     public void onClick(View view) {
 
@@ -110,6 +112,121 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
             case R.id.ivSebrae:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.sebrae.com.br/sites/PortalSebrae"));
+                startActivity(it);
+                break;
+
+            case R.id.ivUnoesc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.unoesc.edu.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivFiesc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://fiesc.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivIrani:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.irani.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivPioneiro:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bateriaspioneiro.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivItl:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.incubadoraluzerna.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivScherer:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.scherer-sa.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSesc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.sesc.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSenac:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://portal.sc.senac.br/portal/home/default.aspx"));
+                startActivity(it);
+                break;
+
+            case R.id.ivJrc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/jrcsolucoes/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivItaliana:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.italianasorvetes.com/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivVillage:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.vilage.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivContassesc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.contassesc.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivTricam:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tricam.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivRedux:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/redux.eng/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivOdeme:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.odeme.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivNewonk:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://newonyk.com/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivNewmedical:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://newmedicaltec.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivEco:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://ecotextil.ind.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivUnifique:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.unifique.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivPortalmed:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.portalmedsst.com/index.php"));
+                startActivity(it);
+                break;
+
+            case R.id.ivIfc:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://ifc.edu.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivInovale:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.poloinovale.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivTirol:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tirol.com.br/"));
                 startActivity(it);
                 break;
         }
