@@ -104,6 +104,8 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onClick(View view) {
 
+        //Expositores
+
         switch (view.getId()){
             case R.id.ivPref_joacaba:
                 Intent it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.joacaba.sc.gov.br"));
@@ -227,6 +229,68 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
             case R.id.ivTirol:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tirol.com.br/"));
+                startActivity(it);
+                break;
+
+            //Gera Gourmet
+
+            case R.id.ivBotequim:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://botequimdobaptista.com/institucional#meio"));
+                startActivity(it);
+                break;
+
+            case R.id.ivBrollo:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brollolanches.com/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivDegustare:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/degustareoficial/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivDongeraldo:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Don-Geraldo-Ristorante-228915630926611/?rf=122600374489032"));
+                startActivity(it);
+                break;
+
+            case R.id.ivEspacogourmet:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/egdz9/?rf=158561340952284"));
+                startActivity(it);
+                break;
+
+            case R.id.ivEstacaocafe:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/estacaocafe.lojasmulti/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivEstacaopastel:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.estacaopastel.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivHoteljaragua:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.hoteljaraguareal.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivNipon:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/niponsushideliveryemporium/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSrbuteco:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Sr.butecojba/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivTotti:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Restaurante-Totti-Joacaba-394349920676225/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivVintage:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/vintagecontainerbarjba"));
                 startActivity(it);
                 break;
         }
