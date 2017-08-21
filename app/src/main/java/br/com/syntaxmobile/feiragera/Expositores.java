@@ -13,7 +13,8 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
     ImageView prefeitura, sebrae, unoesc, fiesc, irani, pioneiro, itl, scherer, sesc, senac, jrc, italiana, village, contassesc,
             tricam, redux, odeme, newonk, newmedical, eco, unifique, portalmed, ifc, inovale, tirol, botequim, brollo, degustare,
-            dongeraldo, espaco_gourmet, estacao_cafe, estacao_pastel, hotel_jaragua, nipon, srbuteco, totti, vintage;
+            dongeraldo, espaco_gourmet, estacao_cafe, estacao_pastel, hotel_jaragua, nipon, srbuteco, totti, vintage, salus, mobili,
+            unimed, marista, bosch, wish, scheinder, nucleo, sicoob, proner, andrade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -229,6 +230,61 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
             case R.id.ivTirol:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tirol.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSalus:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://salusdermatoglifia.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivMobili:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://fabrikamobili.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivUnimed:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.unimed.coop.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivMarista:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://freirogerio.colegiosmaristas.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivBosch:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bosch-professional.com/br/pt/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivWish:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://wishbox.net.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSchneider:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.schneiderservice.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivNucleo:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.acioc.com.br/nucleo/3/nucleo-jovem-empreendedor"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSicoob:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.sicoob.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivProner:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Pronercasadasbicicletas/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivAndrade:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.andradeconstrucoes.com.br/"));
                 startActivity(it);
                 break;
 
