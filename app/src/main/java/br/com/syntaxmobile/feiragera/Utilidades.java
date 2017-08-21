@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 public class Utilidades extends AppCompatActivity {
 
@@ -47,6 +48,9 @@ public class Utilidades extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        Toast.makeText(getApplicationContext(),"Clique nos telefones para poder realizar ligações", Toast.LENGTH_LONG).show();
+
 
     }
 
