@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Feira Gera</string>
+    <string name="app_name">Feira GERA</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_utilidade">Feira Gera</string>
+    <string name="title_activity_utilidade">Feira GERA</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="google_android_map_api_key">AIzaSyADzMZI8IFXD7g5oOBzkGJNHnY1S_KPtxw</string>
 </resources>
