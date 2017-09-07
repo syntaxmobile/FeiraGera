@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="Laranja_Syntax">#f58634</color>
+    <color name="colorPrimaryDark">#012138</color>
+    <color name="colorAccent">#eeeeee</color>
+    <color name="laranjaSyntax">#f58634</color>
+
+    <item name="backgroundFeiraGera" type="color">#012138</item>
+
+    <item name="branco" type="color">#ffffff</item>
+    <item name="amarelo" type="color">#ffcb03</item>
+
+
 </resources>

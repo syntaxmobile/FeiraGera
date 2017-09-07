@@ -55,7 +55,7 @@
             android:value="AIzaSyADzMZI8IFXD7g5oOBzkGJNHnY1S_KPtxw" />
 
         <activity
-            android:name=".Utilidade"
+            android:name=".Utilidades"
             android:label="@string/title_activity_utilidade"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

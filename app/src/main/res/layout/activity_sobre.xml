@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Descubra o que um aplicativo pode fazer por seu negócio"
             android:textAlignment="center"
-            android:textColor="@color/Laranja_Syntax"
+            android:textColor="@color/laranjaSyntax"
             android:textStyle="normal" />
 
 
@@ -96,7 +96,7 @@
             android:autoLink="web"
             android:text="www.syntaxmobile.com.br"
             android:textAlignment="center"
-            android:textColorLink="@color/Laranja_Syntax"
+            android:textColorLink="@color/laranjaSyntax"
             android:textSize="25dp"
             android:textStyle="bold" />
 
