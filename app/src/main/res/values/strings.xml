@@ -4,4 +4,106 @@
     <string name="title_activity_utilidade">Feira GERA</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="google_android_map_api_key">AIzaSyADzMZI8IFXD7g5oOBzkGJNHnY1S_KPtxw</string>
+
+    <!-- Textos da tela A FEIRA -->
+    <string name="textoFeiraParte1">No ano em que Joaçaba comemora seus 100 anos, a Feira GERA 2017, promovida pela ACIOC e em sua
+        segunda edição, será o grande evento que promoverá o município para toda a região e fortalecerá o espírito da inovação,
+        competitividade e desenvolvimento sustentável para todo o estado de Santa Catarina.</string>
+    <string name="textoFeiraParte2">Destaca-se também que a GERA 2017 está em acordo com os Eixos de Desenvolvimento do Polo Inovale e
+        do Centro de Inovação que está sendo construído em Joaçaba.</string>
+    <string name="textoFeiraParte3">No cenário econômico, a GERA 2017 pretende fortalecer a geração de negócios entre empresas inovadoras
+        e fortalecer a prática da inovação e do empreendedorismo junto à sociedade.</string>
+    <string name="textoFeiraParte4">Em 2017 a Feira GERA acontecerá de 21 a 24 de setembro no Centro de Eventos da Unoesc – Campus I
+        com uma estimativa de público superior a 10 mil pessoas entre empresários, autoridades, líderes, formadores de opinião, imprensa e comunidade em geral.</string>
+
+    <!-- Textos da tela PROGRAMAÇÃO -->
+    <string name="localArena">Local: Arena do Conhecimento</string>
+    <string name="localEspacoGeraConhecimento">Local: Espaço GERA Conhecimento</string>
+    <string name="localEspacoGeraExperiencia">Local: Espaço GERA Experiência</string>
+    <string name="localGeraNegocios">Local: GERA Negócios </string>
+
+    <!-- Textos da tela PROGRAMAÇÃO -->
+    <!-- DIA 1 - QUINTA-FEIRA -->
+    <string name="DiaUmDescricao1">19h00 | Recepção dos Convidados</string>
+    <string name="DiaUmDescricao2">20h00 | Cerimônia de Abertura Oficial</string>
+    <string name="DiaUmDescricao3">20h00 | Palestra : "Inovação e desenvolvimento: o caso de Valência", Espanha com Cristóbal Miralles, Doutor em Engenharia Industrial,
+        professor e pesquisador do Departamento de Organização de Empresas da Universidade Politécnicade Valência, Espanha</string>
+
+    <!-- Textos da tela PROGRAMAÇÃO -->
+    <!-- DIA 2 - SEXTA-FEIRA -->
+
+    <!-- LOCAL Arena do Conhecimento -->
+    <string name="DiaDoisDescricao1">10h00 às 11h00 | Oficina Impressão 3D | Responsável - SENAI</string>
+    <string name="DiaDoisDescricao2">13h00 às 13h30 | Tecnologias e seu uso na Formação Profissional | Responsável - UNOESC</string>
+    <string name="DiaDoisDescricao3">13h30 às 14h30 | Projeto Piloto: Robótica Pedagógica | Responsável - IFC</string>
+    <string name="DiaDoisDescricao4">15h30 às 16h30 | A Internet do Bem | Responsável - UNIFIQUE</string>
+    <string name="DiaDoisDescricao5">17h00 às 18h00 | O Lixo Orgânico como Oportunidade de Negócios e geração de renda | Responsável - Rafael da Rosa</string>
+    <string name="DiaDoisDescricao6">18h15 às 19h15 | Batalha de Robôs UNOESC | Responsável - UNOESC</string>
+    <string name="DiaDoisDescricao7">19h30 às 21h | Excelência Talks - Apresentação dos Cases de Sucesso: Baterias Pioneiro, Bosch, 3M e Movimento Excelência SC |
+        Responsável - Núcleo de Gestão pela Excelência (ACIOC)</string>
+    <string name="DiaDoisDescricao8">21h30 às 22h15 | Talk Show - Negócios, inovação e Tecnologia | Responsável - Núcleo de Gestão pela Excelência (ACIOC)</string>
+
+    <!-- LOCAL Espaço Gera Conhecimento -->
+    <string name="DiaDoisDescricao9">10h00 às 11h00 | Oficina: Plano de Negócios | Responsável - UNOESC</string>
+    <string name="DiaDoisDescricao10">11h00 às 12h00 | Empreendedorismo: cases de sucesso | Responsável - UNOESC</string>
+    <string name="DiaDoisDescricao11">13h30 às 14h30 | O "BRDE Inova" e o apoio para investimentos em inovação | Responsável - BRDE</string>
+    <string name="DiaDoisDescricao12">15h00 às 16h00 | Inovação aberta: Abordagem de gestão da inovação com ênfase no fortalecimento de interfaces | Responsável - IRANI</string>
+    <string name="DiaDoisDescricao13">16h30 às 17h30 | BOSCH Apresenta: Novas tecnologias automotivas - Resultados e negócios | Responsável - BOSCH</string>
+    <string name="DiaDoisDescricao14">18h00 às 19h00| A Exploração do Espaço : Discutindo Cenários Prospectivos de Utilização da Tecnologia Espacial - Oportunidades e Parcerias |
+        Palestrante - Paulo Batista</string>
+    <string name="DiaDoisDescricao15">19h30 às 20h30 | Fotografia Digital: Stop Motion | Responsável - UNOESC</string>
+
+    <!-- LOCAL Espaço Gera Experiência -->
+    <string name="DiaDoisDescricao16">10h00 às 11h00 | Oficina Touch Screen - Telas Sensíveis | UNOESC</string>
+    <string name="DiaDoisDescricao17">11h00 às 12h00 | Oficina Touch Screen - Telas Sensíveis | UNOESC</string>
+    <string name="DiaDoisDescricao18">13h30 às 15h00 | Desenvolvendo aplicativos Android no Ensino Fundamental utilizando o MIT App Inventor | Responsável - Paulo Liedke</string>
+    <string name="DiaDoisDescricao19">15h15 às 16h15 | Marketing de conteúdo para mídias sociais | MegaTrends</string>
+    <string name="DiaDoisDescricao20">16h30 às 17h30 | Indústria 4.0 - Resultados e negócios | SENIOR do Contestado</string>
+    <string name="DiaDoisDescricao21">18h00 às 19h00 | Simulação de processos de fabricação mecânica | IFC</string>
+    <string name="DiaDoisDescricao22">19h30 às 20h30 | 3M: Apresentação do Case de Sucesso | 3M</string>
+
+    <!-- Textos da tela PROGRAMAÇÃO -->
+    <!-- DIA 3 - SÁBADO -->
+
+    <!-- LOCAL GERA Negócios -->
+    <string name="DiaTresDescricao0">13h30 às 16h30 | Sessão de Negócios com empresas da região e participantes da Feira | SEBRAE</string>
+
+    <!-- LOCAL Arena do Conhecimento -->
+    <string name="DiaTresDescricao1">10h00 às 11h00 | Energias Renováveis| UNOESC</string>
+    <string name="DiaTresDescricao2">11h00 às 12h00 | Hortas Urbanas | UNOESC</string>
+    <string name="DiaTresDescricao3">13h30 às 15h30 | Wanna Kick Ass | Glóbulo</string>
+    <string name="DiaTresDescricao4">16h00 às 17h00 | Espaço 3M | 3M</string>
+    <string name="DiaTresDescricao5">17h00 às 18h00 | A Internet das Coisas | JRC Informática</string>
+    <string name="DiaTresDescricao6">19h00 às 20h00 | Inovação em Gestão Pública | Eliane Fillipim</string>
+    <string name="DiaTresDescricao7">20h15 às 21h30 | Talkshow GERA StartUps | ACIOC/UNOESC/AGIR/POLO INOVALE/ITL</string>
+
+    <!-- LOCAL Espaço Gera Conhecimento -->
+    <string name="DiaTresDescricao8">10h00 às 12h00 | Oficina: Business Plan for Start Ups | Márcia Diniz</string>
+    <string name="DiaTresDescricao9">13h30 às 14h30 | Conheça o CRM: Mecanismo de Gestão de Relacionamento com o Cliente | SENIOR do Contestado</string>
+    <string name="DiaTresDescricao10">15h00 às 16h00 | Espaço BOSCH | BOSCH</string>
+    <string name="DiaTresDescricao11">16h30 às 17h30 | Os incentivos da Prefeitura de Luzerna para a Inovação, Tecnologia e atração de novos empreendimentos | Prefeitura de Luzerna</string>
+    <string name="DiaTresDescricao12">18h00 às 19h00| Inteligência Emocional nas empresas | Núcleo de Gestão de Pessoas (ACIOC)</string>
+    <string name="DiaTresDescricao13">19h30 às 20h30 | Espaço 3M | 3M</string>
+
+    <!-- LOCAL Espaço Gera Experiência -->
+    <string name="DiaTresDescricao14">10h00 às 11h00 | Propriedade Intelectual | Jonathan Cielo</string>
+    <string name="DiaTresDescricao15">11h00 às 12h00 | Inovação em Dermatoglifia | Rudy José Nodary Junior</string>
+    <string name="DiaTresDescricao16">13h30 às 14h30 | Reinvente sua empresa - Inovar é preciso | Responsável - Sebrae</string>
+    <string name="DiaTresDescricao17">15h00 às 16h00 | Aprenda como exportar e torne sua empresa competitiva mundialmente | Responsável - UNOESC</string>
+    <string name="DiaTresDescricao18">16h30 às 17h30 | Economia Circular: Cases de sucesso na reciclagem de plástico e carvão da Irani | Responsável - IRANI</string>
+    <string name="DiaTresDescricao19">18h00 às 21h00 | O processo de inovação da Vitivincultura e sua interação com os macrossegmentos | Responsável - SEBRAE</string>
+
+    <!-- Textos da tela PROGRAMAÇÃO -->
+    <!-- DIA 4 - DOMINGO -->
+
+    <!-- LOCAL Arena do Conhecimento -->
+    <string name="DiaQuatroDescricao1">10h00 às 12h00 | Moeda Virtual - BITCOIN | Emilio Wuerges</string>
+
+    <!-- LOCAL Espaço Gera Conhecimento -->
+    <string name="DiaQuatroDescricao2">10h00 às 11h00 | Introdução a Robótica Pedagógica | Responsável - IFC</string>
+
+    <!-- LOCAL Espaço Gera Experiência -->
+    <string name="DiaQuatroDescricao3">11h00 às 12h00 | Workshop: Robótica com Arduíno | Responsável - IFC</string>
+
 </resources>
+

@@ -62,7 +62,7 @@
 
                     <TextView
                         android:clickable="false"
-
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -116,6 +116,7 @@
 
                     <TextView
                         android:clickable="false"
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -169,6 +170,7 @@
 
                     <TextView
                         android:clickable="false"
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -222,6 +224,7 @@
 
                     <TextView
                         android:clickable="false"
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -274,6 +277,7 @@
 
                     <TextView
                         android:clickable="false"
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -326,6 +330,7 @@
 
                     <TextView
                         android:clickable="false"
+                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDescricaoItem6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

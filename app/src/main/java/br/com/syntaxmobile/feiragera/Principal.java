@@ -11,7 +11,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_principal);
+        setContentView(R.layout.principal);
 
         // Clique em A FEIRA
         LinearLayout layoutFeira = (LinearLayout )findViewById(R.id.layoutFeira);
