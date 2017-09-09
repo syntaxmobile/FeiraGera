@@ -660,7 +660,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="95dp"
+                android:layout_marginTop="80dp"
                 android:autoLink="phone"
                 android:text="(49) 3525-0639"
                 android:textColor="#ffffff"
