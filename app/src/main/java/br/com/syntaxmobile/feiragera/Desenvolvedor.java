@@ -2,19 +2,17 @@ package br.com.syntaxmobile.feiragera;
 
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 
-public class Sobre extends AppCompatActivity implements View.OnClickListener {
+public class Desenvolvedor extends AppCompatActivity implements View.OnClickListener {
 
     //Decidi não recuperar por aqui pois acho mais fácil fazer tudo junto logo após. Não sei se isso é uma boa prática mas ta valendo ;)
 
@@ -72,14 +70,14 @@ public class Sobre extends AppCompatActivity implements View.OnClickListener {
 
                 Se o usuário não concedeu a permissão podemos solicitar a permissão pelo seguinte comando:
 
-                "ActivityCompat.requestPermissions(Sobre.this, new String[]{Manifest.permission.CALL_PHONE},1);"
+                "ActivityCompat.requestPermissions(Desenvolvedor.this, new String[]{Manifest.permission.CALL_PHONE},1);"
 
                 O número 1 é um request code para solicitar.
 
                 */
 
                 if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Sobre.this, new String[]{Manifest.permission.CALL_PHONE},1);
+                    ActivityCompat.requestPermissions(Desenvolvedor.this, new String[]{Manifest.permission.CALL_PHONE},1);
                     return;
                 }
                 startActivity(it);

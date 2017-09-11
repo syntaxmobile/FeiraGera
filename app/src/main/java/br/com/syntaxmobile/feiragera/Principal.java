@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class Principal extends AppCompatActivity implements View.OnClickListener {
+public class Principal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.principal);
 
         // Clique em A FEIRA
-        LinearLayout layoutFeira = (LinearLayout )findViewById(R.id.layoutFeira);
+        LinearLayout layoutFeira = (LinearLayout) findViewById(R.id.layoutFeira);
 
         layoutFeira.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +25,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         });
 
         // Clique em PROGRAMAÇÃO
-        LinearLayout layoutProgramacao = (LinearLayout )findViewById(R.id.layoutProgramacao);
+        LinearLayout layoutProgramacao = (LinearLayout) findViewById(R.id.layoutProgramacao);
 
         layoutProgramacao.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +36,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         });
 
         // Clique em EXPOSITORES
-        LinearLayout layoutExpositores = (LinearLayout )findViewById(R.id.layoutExpositores);
+        LinearLayout layoutExpositores = (LinearLayout) findViewById(R.id.layoutExpositores);
 
         layoutExpositores.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +47,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         });
 
         // Clique em UTILIDADES
-        LinearLayout layoutUtilidades = (LinearLayout )findViewById(R.id.layoutUtilidades);
+        LinearLayout layoutUtilidades = (LinearLayout) findViewById(R.id.layoutUtilidades);
 
         layoutUtilidades.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +58,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         });
 
         // Clique em PATROCINADORES
-        LinearLayout layoutPatrocinadores = (LinearLayout )findViewById(R.id.layoutPatrocinadores);
+        LinearLayout layoutPatrocinadores = (LinearLayout) findViewById(R.id.layoutPatrocinadores);
 
         layoutPatrocinadores.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,20 +69,15 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         });
 
         // Clique em DESENVOLVEDOR
-        LinearLayout layouDesenvolvedor = (LinearLayout )findViewById(R.id.layoutPatrocinadores);
+        LinearLayout layouDesenvolvedor = (LinearLayout) findViewById(R.id.layoutDesenvolvedor);
 
-        layoutPatrocinadores.setOnClickListener(new View.OnClickListener() {
+        layouDesenvolvedor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(Principal.this, Patrocinadores.class);
+                Intent it = new Intent(Principal.this, Desenvolvedor.class);
                 startActivity(it);
             }
         });
-
-       }
-
-    @Override
-    public void onClick(View view) {
 
     }
 }

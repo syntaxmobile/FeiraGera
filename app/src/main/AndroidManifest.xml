@@ -24,8 +24,7 @@
         <activity android:name=".Feira" />
         <activity android:name=".Programacao" />
         <activity android:name=".Patrocinadores" />
-        <activity android:name=".Parte" />
-        <activity android:name=".Sobre" />
+        <activity android:name=".Desenvolvedor" />
         <activity android:name=".Navegador" />
 
         <!-- [START firebase_iid_service] -->

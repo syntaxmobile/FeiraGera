@@ -12,7 +12,7 @@ public class Patrocinadores extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_patrocinadores);
+        setContentView(R.layout.patrocinadores);
 
         ImageView pref_joacaba = (ImageView) findViewById(R.id.prefjoacaba);
         pref_joacaba.setOnClickListener(this);
@@ -21,7 +21,7 @@ public class Patrocinadores extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view) {
 
-        switch (view.getId()){
+        switch (view.getId()) {
 
             case R.id.prefjoacaba:
                 String url = "http://www.joacaba.sc.gov.br/";

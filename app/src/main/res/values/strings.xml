@@ -17,6 +17,7 @@
         com uma estimativa de público superior a 10 mil pessoas entre empresários, autoridades, líderes, formadores de opinião, imprensa e comunidade em geral.</string>
 
     <!-- Textos da tela PROGRAMAÇÃO -->
+    <!-- LOCAIS -->
     <string name="localArena">Local: Arena do Conhecimento</string>
     <string name="localEspacoGeraConhecimento">Local: Espaço GERA Conhecimento</string>
     <string name="localEspacoGeraExperiencia">Local: Espaço GERA Experiência</string>
@@ -104,6 +105,10 @@
 
     <!-- LOCAL Espaço Gera Experiência -->
     <string name="DiaQuatroDescricao3">11h00 às 12h00 | Workshop: Robótica com Arduíno | Responsável - IFC</string>
+
+    <!-- Textos da tela EXPOSITORES -->
+    <string name="textoExpositoresGeraGourmet">Promovido pelo Núcleo de Gastronomia da ACIOC, o GERA Gourmet será uma das grandes atrações da Feira GERA.
+        Serão 12 empresas unidas, proporcionando ao cliente uma variedade de sabores e delícias. Conheça as empresas que fazem parte do NG da ACIOC!</string>
 
 </resources>
 

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,22 +14,21 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!-- Logo da Feira GERA-->
             <ImageView
-                android:id="@+id/imvItem"
+                android:id="@+id/imvLogoFeira"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="30dp"
-                android:background="@color/backgroundFeiraGera"
-                android:src="@drawable/logo"/>
+                android:src="@drawable/logogera2017" />
 
             <!-- PROGRAMAÇÃO DIA 1 -->
             <LinearLayout
                 android:id="@+id/layoutProgramacaoDiaUm"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="16dp"
                 android:background="@color/colorAccent"
-                android:orientation="horizontal"
-                android:layout_margin="16dp">
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -37,61 +37,59 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:elevation="2dp"
-                        android:background="@drawable/retangulo_sombra"
-                        android:clickable="false"
                         android:id="@+id/txtDiaUmTitulo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="21/09 | QUINTA-FEIRA"
                         android:textAlignment="center"
-                        android:textSize="16sp"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"/>
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDiaUmLocal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localArena"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-
                         android:id="@+id/txtDiaUmDescricao1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
+                        android:clickable="false"
                         android:text="@string/DiaUmDescricao1"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-
                         android:id="@+id/txtDiaUmDescricao2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:clickable="false"
                         android:text="@string/DiaUmDescricao2"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtDiaUmDescricao3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:clickable="false"
                         android:text="@string/DiaUmDescricao3"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -102,299 +100,10 @@
                 android:id="@+id/layoutProgramacaoDiaDois"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/colorAccent"
-                android:orientation="horizontal"
-                android:layout_margin="16dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:elevation="2dp"
-                    android:background="@drawable/retangulo_sombra"
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisTitulo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="22/09 | SEXTA-FEIRA"
-                    android:textAlignment="center"
-                    android:textSize="16sp"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:layout_marginRight="16dp"
-                    android:id="@+id/txtDiaDoisLocal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="@string/localArena"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/DiaDoisDescricao1"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao2"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao3"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao4"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao5"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao6"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao7"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao8"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:layout_marginRight="16dp"
-                    android:id="@+id/txtDiaDoisLocal2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="@string/localEspacoGeraConhecimento"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/DiaDoisDescricao9"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao10"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao11"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao12"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao13"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao14"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao15"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:layout_marginRight="16dp"
-                    android:id="@+id/txtDiaDoisLocal3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="@string/localEspacoGeraExperiencia"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/DiaDoisDescricao16"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao17"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao18"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao19"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao20"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao21"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <TextView
-                    android:clickable="false"
-                    android:id="@+id/txtDiaDoisDescricao22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="@string/DiaDoisDescricao22"
-                    android:textSize="12sp"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/layoutProgramacaoDiaTres"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:background="@color/colorAccent"
-                android:orientation="horizontal"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="4dp">
+                android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -402,280 +111,290 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:elevation="2dp"
-                        android:background="@drawable/retangulo_sombra"
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresTitulo"
+                        android:id="@+id/txtDiaDoisTitulo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="23/09 | SÁBADO"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
+                        android:text="22/09 | SEXTA-FEIRA"
                         android:textAlignment="center"
-                        android:textSize="16sp"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"/>
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
+                        android:id="@+id/txtDiaDoisLocal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
-                        android:id="@+id/txtDiaTresLocal1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
-                        android:text="@string/localGeraNegocios"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
-
-                    <TextView
                         android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao0"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/DiaTresDescricao0"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
-
-                    <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDiaTresLocal2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
                         android:text="@string/localArena"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao1"
+                        android:id="@+id/txtDiaDoisDescricao1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/DiaTresDescricao1"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao2"
+                        android:id="@+id/txtDiaDoisDescricao2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao2"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao2"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao3"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDiaDoisDescricao3"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao3"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao3"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao4"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDiaDoisDescricao4"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao4"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao4"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao5"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDiaDoisDescricao5"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao5"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao5"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao6"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDiaDoisDescricao6"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao6"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao6"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao7"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/txtDiaDoisDescricao7"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao7"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao7"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/txtDiaDoisDescricao8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
                         android:clickable="false"
+                        android:text="@string/DiaDoisDescricao8"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaDoisLocal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
-                        android:id="@+id/txtDiaTresLocal3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localEspacoGeraConhecimento"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao8"
+                        android:id="@+id/txtDiaDoisDescricao9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/DiaTresDescricao8"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao9"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao9"
+                        android:id="@+id/txtDiaDoisDescricao10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao9"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao10"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao10"
+                        android:id="@+id/txtDiaDoisDescricao11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao10"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao11"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao11"
+                        android:id="@+id/txtDiaDoisDescricao12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao11"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao12"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao12"
+                        android:id="@+id/txtDiaDoisDescricao13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao12"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao13"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao13"
+                        android:id="@+id/txtDiaDoisDescricao14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao13"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao14"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/txtDiaDoisDescricao15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
                         android:clickable="false"
+                        android:text="@string/DiaDoisDescricao15"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaDoisLocal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
-                        android:id="@+id/txtDiaTresLocal4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localEspacoGeraExperiencia"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao14"
+                        android:id="@+id/txtDiaDoisDescricao16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/DiaTresDescricao14"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao16"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao15"
+                        android:id="@+id/txtDiaDoisDescricao17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao15"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao17"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao16"
+                        android:id="@+id/txtDiaDoisDescricao18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao16"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao18"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao17"
+                        android:id="@+id/txtDiaDoisDescricao19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao17"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao19"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao18"
+                        android:id="@+id/txtDiaDoisDescricao20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao18"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao20"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtDiaTresDescricao19"
+                        android:id="@+id/txtDiaDoisDescricao21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
-                        android:text="@string/DiaTresDescricao19"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao21"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaDoisDescricao22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao22"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
+            <!-- PROGRAMAÇÃO DIA 3 -->
             <LinearLayout
-                android:id="@+id/layoutProgramacaoDiaQuatro"
+                android:id="@+id/layoutProgramacaoDiaTres"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/colorAccent"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/colorAccent"
+                android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -683,83 +402,366 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:elevation="2dp"
+                        android:id="@+id/txtDiaTresTitulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/retangulo_sombra"
                         android:clickable="false"
+                        android:elevation="2dp"
+                        android:text="23/09 | SÁBADO"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresLocal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/localGeraNegocios"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao0"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresLocal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/localArena"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao2"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao3"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao4"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao5"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao6"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao7"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresLocal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/localEspacoGeraConhecimento"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao8"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao9"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao10"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao11"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao12"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao13"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresLocal4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="@string/localEspacoGeraExperiencia"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao14"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao15"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao16"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao17"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao18"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao19"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- PROGRAMAÇÃO DIA 4 -->
+            <LinearLayout
+                android:id="@+id/layoutProgramacaoDiaQuatro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
                         android:id="@+id/txtDiaQuatroTitulo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="24/09 | DOMINGO"
                         android:textAlignment="center"
-                        android:textSize="16sp"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"/>
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDiaQuatroLocal1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localArena"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtDiaQuatroDescricao1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
+                        android:clickable="false"
                         android:text="@string/DiaQuatroDescricao1"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDiaQuatroLocal2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localEspacoGeraConhecimento"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtDiaQuatroDescricao2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:clickable="false"
                         android:text="@string/DiaQuatroDescricao2"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
                         android:id="@+id/txtDiaQuatroLocal3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="@string/localEspacoGeraExperiencia"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtDiaQuatroDescricao3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:clickable="false"
                         android:text="@string/DiaQuatroDescricao3"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 

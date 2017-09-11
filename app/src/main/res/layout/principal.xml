@@ -16,12 +16,11 @@
 
             <!-- Logo da Feira GERA-->
             <ImageView
-                android:id="@+id/imvItem"
+                android:id="@+id/imvLogoFeira"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/backgroundFeiraGera"
-                android:padding="30dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logogera2017" />
 
             <!-- Menu A FEIRA GERA -->
             <LinearLayout
