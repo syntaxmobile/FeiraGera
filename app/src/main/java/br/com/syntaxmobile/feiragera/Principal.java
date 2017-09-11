@@ -46,17 +46,6 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        /*// Clique em NOTÍCIAS
-        LinearLayout layoutNoticias = (LinearLayout )findViewById(R.id.layoutNoticias);
-
-        layoutNoticias.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent it = new Intent(Principal.this, Noticias.class);
-                startActivity(it);
-            }
-        });*/
-
         // Clique em UTILIDADES
         LinearLayout layoutUtilidades = (LinearLayout )findViewById(R.id.layoutUtilidades);
 
@@ -70,6 +59,17 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
 
         // Clique em PATROCINADORES
         LinearLayout layoutPatrocinadores = (LinearLayout )findViewById(R.id.layoutPatrocinadores);
+
+        layoutPatrocinadores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(Principal.this, Patrocinadores.class);
+                startActivity(it);
+            }
+        });
+
+        // Clique em DESENVOLVEDOR
+        LinearLayout layouDesenvolvedor = (LinearLayout )findViewById(R.id.layoutPatrocinadores);
 
         layoutPatrocinadores.setOnClickListener(new View.OnClickListener() {
             @Override
