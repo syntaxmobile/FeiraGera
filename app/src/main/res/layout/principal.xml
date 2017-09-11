@@ -1,349 +1,368 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/back3">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!-- Logo da Feira GERA-->
             <ImageView
                 android:id="@+id/imvItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="30dp"
                 android:background="@color/backgroundFeiraGera"
-                android:src="@drawable/logo"/>
+                android:padding="30dp"
+                android:src="@drawable/logo" />
 
+            <!-- Menu A FEIRA GERA -->
             <LinearLayout
-                android:clickable="true"
                 android:id="@+id/layoutFeira"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem"
+                    android:id="@+id/imvIconeFeira"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_feira"/>
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_feira" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtFeira"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="A FEIRA GERA"
-                        android:textSize="14sp"
                         android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem"
+                        android:id="@+id/txtDescricaoFeira"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="O que é a Feira GERA? Saiba mais aqui sobre a segunda edição!"
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
+            <!-- Menu PROGRAMAÇÃO -->
             <LinearLayout
-                android:clickable="true"
                 android:id="@+id/layoutProgramacao"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem2"
+                    android:id="@+id/imvIconeProgramacao"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_programacao"/>
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_programacao" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:clickable="false"
                         android:id="@+id/txtProgramacao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="PROGRAMAÇÃO"
-                        android:textSize="14sp"
                         android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem2"
+                        android:id="@+id/txtDescricaoProgramacao"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="Confira aqui a programação da Feira! Palestras e muito mais!"
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
+            <!-- Menu EXPOSITORES -->
             <LinearLayout
-                android:clickable="true"
                 android:id="@+id/layoutExpositores"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem3"
+                    android:id="@+id/imvIconeExpositores"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_exp"/>
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_exp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtTituloItem3"
+                        android:id="@+id/txtExpositores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="EXPOSITORES"
-                        android:textSize="14sp"
                         android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem3"
+                        android:id="@+id/txtDescricaoExpositores"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="Veja aqui quem você vai encontrar na Feira!"
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
+            <!-- Menu UTILIDADES -->
             <LinearLayout
-                android:clickable="true"
-                android:id="@+id/layoutNoticias"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp">
-
-                <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem4"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_news"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtTituloItem4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="16dp"
-                        android:text="NOTÍCIAS"
-                        android:textSize="14sp"
-                        android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:text="Fique por dentro de tudo que está acontecendo na Feira!"
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:clickable="true"
                 android:id="@+id/layoutUtilidades"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem5"
+                    android:id="@+id/imvIconeUtilidades"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_util"/>
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_util" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtTituloItem5"
+                        android:id="@+id/txtUtilidades"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="UTILIDADES"
-                        android:textSize="14sp"
                         android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem5"
+                        android:id="@+id/txtDescricaoUtilidades"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="Informações sobre hotéis, restaurantes, táxis e farmácias."
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
             </LinearLayout>
 
+            <!-- Menu PATROCINADORES -->
             <LinearLayout
-                android:clickable="true"
                 android:id="@+id/layoutPatrocinadores"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/backgroundFeiraGera"
-                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginBottom="4dp">
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:clickable="false"
-                    android:id="@+id/imvIconeItem6"
+                    android:id="@+id/imvIconePatrocinadores"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/ic_menu_patrocinadores"/>
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_patrocinadores" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:clickable="false"
-                        android:id="@+id/txtTituloItem6"
+                        android:id="@+id/txtPatrocinadores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
                         android:text="PATROCINADOES"
-                        android:textSize="14sp"
                         android:textColor="@color/amarelo"
-                        android:textStyle="bold"/>
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_marginRight="16dp"
-                        android:id="@+id/txtDescricaoItem6"
+                        android:id="@+id/txtDescricaoPatrocinadores"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
+                        android:clickable="false"
                         android:text="Saiba quem ajudou a tornar a Feira GERA 2017 possível!"
-                        android:textSize="13sp"
-                        android:textColor="@color/branco"/>
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Menu DESENVOLVEDOR -->
+            <LinearLayout
+                android:id="@+id/layoutDesenvolvedor"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/backgroundFeiraGera"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imvIconeDesenvolvedor"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:clickable="false"
+                    android:src="@drawable/ic_menu_sobre" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtDesenvolvedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/retangulo_sombra"
+                        android:clickable="false"
+                        android:elevation="2dp"
+                        android:text="DESENVOLVEDOR"
+                        android:textColor="@color/amarelo"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescricaoDesenvolvedor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="false"
+                        android:text="Oi, somos a Syntax Mobile e desenvolvemos este app!"
+                        android:textColor="@color/branco"
+                        android:textSize="13sp" />
 
                 </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
-
 
     </RelativeLayout>
 
