@@ -1,7 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     android:fillViewport="true">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,206 +10,391 @@
         android:layout_height="match_parent"
         tools:context="br.com.syntaxmobile.feiragera.Utilidades$PlaceholderFragment">
 
-        <FrameLayout
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/background3">
+            android:orientation="vertical">
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
+            <!-- HOTÉIS -->
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="8dp">
+                android:layout_margin="16dp"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
 
+                <!-- TÍTULO HOTÉIS -->
                 <TextView
-                    android:id="@+id/txvjaragua"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tituloHoteis"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="0dp"
-                    android:text="Hotel Jaraguá"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/retangulo_sombra"
+                    android:elevation="2dp"
+                    android:text="HOTÉIS"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/txvendereco_jaragua"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="30dp"
-                    android:text="Rua Francisco Lindner, 350 – Centro – Joaçaba"
-                    android:textColor="#ffffff" />
+                <!-- HOTEL JARAGUÁ -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelUm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txvtelefone_jaragua"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="50dp"
-                    android:text="(49) 3527-7300 "
-                    android:textColor="#ffffff" />
-            </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="70dp"
-                android:padding="8dp">
+                        <TextView
+                            android:id="@+id/txtHotelUmTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL JARAGUÁ"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/txvcomercio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Hotel do Comércio"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/txtHotelUmEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Rua Francisco Lindner, 350 – Centro"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/txvendereco_comercio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
-                    android:text="Rua Sete de Setembro - 183 – Centro – Joaçaba"
-                    android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/txtHotelUmCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/txvtelefone_comercio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
-                    android:text="(49) 3522-2211 "
-                    android:textColor="#ffffff" />
-            </RelativeLayout>
+                        <TextView
+                            android:id="@+id/txtHotelUmTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3527-7300"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="140dp"
-                android:padding="8dp">
+                    </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txvhotel_joacaba"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Hotel Joaçaba"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txvendereco_hotel_joacaba"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
-                    android:text="Rua Fernando Ferrari – 106 - Bairro Nossa Senhora de Lourdes – Joaçaba"
-                    android:textColor="#ffffff" />
+                <!-- HOTEL DO COMÉRCIO -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelDois"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txvtelefone_hotel_joacaba"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="100dp"
-                    android:text="(49) 3521-4131 | 3521-1779 | 3522-6526"
-                    android:textColor="#ffffff" />
-            </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="230dp"
-                android:padding="8dp">
+                        <TextView
+                            android:id="@+id/txtHotelDoisTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL DO COMÉRCIO"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/txvhotel_bordignon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Hotel Bordignon"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/txtHotelDoisEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Rua Sete de Setembro, 183 – Centro"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/txvendereco_hotel_bordignon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
-                    android:text=" Av. Santa Teresinha – 2990 – Centro – Joaçaba"
-                    android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/txtHotelDoisCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/txvtelefone_hotel_bordignon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
-                    android:text="(49) 3521-3959  "
-                    android:textColor="#ffffff" />
-            </RelativeLayout>
+                        <TextView
+                            android:id="@+id/txtHotelDoisTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3522-2211"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="300dp"
-                android:padding="8dp">
+                    </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txvhotel_farol"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Hotel Farol"
-                    android:textColor="#ffffff"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txvendereco_hotel_farol"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
-                    android:text=" Rua Getúlio Vargas - 2025 - Flor da Serra - Joaçaba"
-                    android:textColor="#ffffff" />
+                <!-- HOTEL JOAÇABA -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelTres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txvtelefone_hotel_farol"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
-                    android:text="(49) 3521-2760 "
-                    android:textColor="#ffffff" />
-            </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
 
-        </FrameLayout>
+                        <TextView
+                            android:id="@+id/txtHotelTresTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL JOAÇABA"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHotelTresEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Rua Fernando Ferrari, 106 – Nossa Sra de Lourdes"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelTresCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelTresTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3521-4131 | 3521-1779 | 3522-6526"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- HOTEL BORDGION -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelQuatro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtHotelQuatroTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL BORDGION"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHotelQuatroEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Avenida Santa Teresinha, 2990 – Centro"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelQuatroCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelQuatroTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3521-3959"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- HOTEL FAROL -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelCinco"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtHotelCincoTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL FAROL"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHotelCincoEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Rua Getúlio Vargas, 2025 – Flor da Serra"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelCincoCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelCincoTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3521-2760"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- HOTEL OESTE -->
+                <LinearLayout
+                    android:id="@+id/layoutHotelSeis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtHotelSeisTitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="HOTEL OESTE"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHotelSeisEndereco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:clickable="false"
+                            android:text="Rua Felipe Schmidt, 269 – Centro"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelSeisCidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Joaçaba/SC"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/txtHotelSeisTelefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:text="(49) 3522-0332"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </FrameLayout>
+
 </ScrollView>

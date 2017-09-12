@@ -19,7 +19,7 @@ public class Desenvolvedor extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sobre);
+        setContentView(R.layout.desenvolvedor);
 
         //Recuperando o parâmetro do textview do site
         TextView site = (TextView) findViewById(R.id.site);

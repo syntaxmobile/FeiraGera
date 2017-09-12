@@ -16,7 +16,7 @@ public class Navegador extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navegador);
+        setContentView(R.layout.navegador);
 
         browser = (WebView) findViewById(R.id.browser);
     }
