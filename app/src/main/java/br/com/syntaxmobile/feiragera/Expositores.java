@@ -19,7 +19,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_expositores);
+        setContentView(R.layout.expositores);
 
         prefeitura = (ImageView) findViewById(R.id.ivPref_joacaba);
         prefeitura.setOnClickListener(this);

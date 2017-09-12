@@ -13,7 +13,7 @@ public class Patrocinadores extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_patrocinadores);
+        setContentView(R.layout.patrocinadores);
 
         ImageView pref_joacaba = (ImageView) findViewById(R.id.ivPat_Prefjoacaba);
         pref_joacaba.setOnClickListener(this);
