@@ -14,7 +14,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
     ImageView prefeitura, sebrae, unoesc, fiesc, irani, pioneiro, itl, scherer, sesc, senac, jrc, italiana, village, contassesc,
             tricam, redux, odeme, newonk, newmedical, eco, unifique, portalmed, ifc, inovale, tirol, botequim, brollo, degustare,
             dongeraldo, espaco_gourmet, estacao_cafe, estacao_pastel, hotel_jaragua, nipon, srbuteco, totti, vintage, salus, mobili,
-            unimed, marista, bosch, wish, scheinder, nucleo, sicoob, proner, andrade;
+            unimed, marista, bosch, wish, schneider, nucleo, sicoob, proner, andrade, soldas, estrelatur, eneagrama, zanardo, tresm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,6 +95,38 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         totti.setOnClickListener(this);
         vintage = (ImageView) findViewById(R.id.ivVintage);
         vintage.setOnClickListener(this);
+        salus = (ImageView) findViewById(R.id.ivSalus);
+        salus.setOnClickListener(this);
+        mobili = (ImageView) findViewById(R.id.ivMobili);
+        mobili.setOnClickListener(this);
+        unimed = (ImageView) findViewById(R.id.ivUnimed);
+        unimed.setOnClickListener(this);
+        marista = (ImageView) findViewById(R.id.ivMarista);
+        marista.setOnClickListener(this);
+        bosch = (ImageView) findViewById(R.id.ivBosch);
+        bosch.setOnClickListener(this);
+        wish = (ImageView) findViewById(R.id.ivWish);
+        wish.setOnClickListener(this);
+        schneider = (ImageView) findViewById(R.id.ivSchneider);
+        schneider.setOnClickListener(this);
+        nucleo = (ImageView) findViewById(R.id.ivNucleo);
+        nucleo.setOnClickListener(this);
+        sicoob = (ImageView) findViewById(R.id.ivSicoob);
+        sicoob.setOnClickListener(this);
+        proner = (ImageView) findViewById(R.id.ivProner);
+        proner.setOnClickListener(this);
+        andrade = (ImageView) findViewById(R.id.ivAndrade);
+        andrade.setOnClickListener(this);
+        soldas = (ImageView) findViewById(R.id.ivSoldasplanalto);
+        soldas.setOnClickListener(this);
+        estrelatur = (ImageView) findViewById(R.id.ivEstrelatur);
+        estrelatur.setOnClickListener(this);
+        eneagrama = (ImageView) findViewById(R.id.ivEneagrama);
+        eneagrama.setOnClickListener(this);
+        zanardo = (ImageView) findViewById(R.id.ivZanardo);
+        zanardo.setOnClickListener(this);
+        tresm = (ImageView) findViewById(R.id.ivTresm);
+        tresm.setOnClickListener(this);
 
         //Mostra uma mensagem na parte inferior da tela para clicar na imagem para abrir o respectivo site do expositor
         Toast.makeText(getApplicationContext(),"Clique na imagem para abrir o site do Expositor", Toast.LENGTH_LONG).show();
@@ -285,6 +317,31 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
             case R.id.ivAndrade:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.andradeconstrucoes.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivSoldasplanalto:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://soldasplanalto.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivEstrelatur:
+                //it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.andradeconstrucoes.com.br/"));
+                //startActivity(it);
+                break;
+
+            case R.id.ivEneagrama:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ieneagrama.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivZanardo:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.grupozanardo.com.br/"));
+                startActivity(it);
+                break;
+
+            case R.id.ivTresm:
+                it = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.3m.com.br/3M/pt_BR/3m-do-brasil/"));
                 startActivity(it);
                 break;
 
