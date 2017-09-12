@@ -57,14 +57,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/sebrae"
+                            android:id="@+id/ivPat_Sebrae"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/sebrae" />
 
                         <ImageView
-                            android:id="@+id/unoesc"
+                            android:id="@+id/ivPat_unoesc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -87,14 +87,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/fiesc"
+                            android:id="@+id/ivPat_Fiesc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/fiesc" />
 
                         <ImageView
-                            android:id="@+id/irani"
+                            android:id="@+id/ivPat_Irani"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -115,14 +115,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/pioneiro"
+                            android:id="@+id/ivPat_Pioneiro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/pioneiro" />
 
                         <ImageView
-                            android:id="@+id/itl"
+                            android:id="@+id/ivPat_Itl"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -143,14 +143,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/senior"
+                            android:id="@+id/ivPat_Senior"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/senior" />
 
                         <ImageView
-                            android:id="@+id/aurora"
+                            android:id="@+id/ivPat_Aurora"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -171,14 +171,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/elevacar"
+                            android:id="@+id/ivPat_Elevacar"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/elevacar" />
 
                         <ImageView
-                            android:id="@+id/tirol"
+                            android:id="@+id/ivPat_Tirol"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -199,14 +199,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/ifc"
+                            android:id="@+id/ivPat_Ifc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/instituto_federal" />
 
                         <ImageView
-                            android:id="@+id/jrc"
+                            android:id="@+id/ivPat_Jrc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -227,14 +227,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/inovale"
+                            android:id="@+id/ivPat_Inovale"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/inovale" />
 
                         <ImageView
-                            android:id="@+id/brde"
+                            android:id="@+id/ivPat_Brde"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -255,14 +255,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/facisc"
+                            android:id="@+id/ivPat_Facisc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/facisc" />
 
                         <ImageView
-                            android:id="@+id/scherer"
+                            android:id="@+id/ivPat_Scherer"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -283,18 +283,20 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/sicoob"
+                            android:id="@+id/ivPat_Sicoob"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/sicoob" />
 
                         <ImageView
-                            android:id="@+id/estrelatur"
+                            android:id="@+id/ivPat_Estrelatur"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/estrelatur"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            app:srcCompat="@drawable/estrelatur" />
+                            android:layout_alignParentEnd="true" />
                     </RelativeLayout>
                 </FrameLayout>
 
@@ -311,14 +313,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/zanardo"
+                            android:id="@+id/ivPat_Zanardo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/grupozanardo" />
 
                         <ImageView
-                            android:id="@+id/limger"
+                            android:id="@+id/ivPat_Limger"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -339,7 +341,7 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/crasc"
+                            android:id="@+id/ivPat_Crasc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
@@ -384,14 +386,14 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:id="@+id/prefjoacaba"
+                            android:id="@+id/ivPat_Prefjoacaba"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             app:srcCompat="@drawable/prefeitura_joacaba" />
 
                         <ImageView
-                            android:id="@+id/munluzerna"
+                            android:id="@+id/ivPat_PrefLuzerna"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
