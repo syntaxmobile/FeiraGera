@@ -87,9 +87,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:autoLink="phone"
                             android:clickable="false"
                             android:text="(49) 3522-1675"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />
 
                     </LinearLayout>
@@ -146,9 +147,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:autoLink="phone"
                             android:clickable="false"
                             android:text="(49) 3522-1902"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />
 
                     </LinearLayout>
@@ -205,9 +207,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:autoLink="phone"
                             android:clickable="false"
                             android:text="(49) 3522-2899"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />
 
                     </LinearLayout>
@@ -264,9 +267,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:autoLink="phone"
                             android:clickable="false"
                             android:text="(49) 3522-0041"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />
 
                     </LinearLayout>
@@ -347,9 +351,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:autoLink="phone"
                             android:clickable="false"
                             android:text="(49) 3522-0320"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />
 
                     </LinearLayout>
