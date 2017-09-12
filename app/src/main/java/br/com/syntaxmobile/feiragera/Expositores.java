@@ -103,13 +103,13 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         unimed.setOnClickListener(this);
         marista = (ImageView) findViewById(R.id.ivMarista);
         marista.setOnClickListener(this);
-        bosch = (ImageView) findViewById(R.id.ivBosch);
+        bosch = (ImageView) findViewById(R.id.ivBosh);
         bosch.setOnClickListener(this);
         wish = (ImageView) findViewById(R.id.ivWish);
         wish.setOnClickListener(this);
         schneider = (ImageView) findViewById(R.id.ivSchneider);
         schneider.setOnClickListener(this);
-        nucleo = (ImageView) findViewById(R.id.ivNucleo);
+        nucleo = (ImageView) findViewById(R.id.ivNje);
         nucleo.setOnClickListener(this);
         sicoob = (ImageView) findViewById(R.id.ivSicoob);
         sicoob.setOnClickListener(this);
@@ -285,7 +285,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
                 startActivity(it);
                 break;
 
-            case R.id.ivBosch:
+            case R.id.ivBosh:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bosch-professional.com/br/pt/"));
                 startActivity(it);
                 break;
@@ -300,7 +300,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
                 startActivity(it);
                 break;
 
-            case R.id.ivNucleo:
+            case R.id.ivNje:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.acioc.com.br/nucleo/3/nucleo-jovem-empreendedor"));
                 startActivity(it);
                 break;
