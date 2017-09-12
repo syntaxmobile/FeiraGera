@@ -1,8 +1,6 @@
 package br.com.syntaxmobile.feiragera;
 
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -37,10 +35,11 @@ public class Utilidades extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_utilidade);
+        setContentView(R.layout.utilidades);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -53,7 +52,6 @@ public class Utilidades extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -102,7 +100,7 @@ public class Utilidades extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_mapa, container, false);
+            View rootView = inflater.inflate(R.layout.utilidades_mapa_fragment, container, false);
             return rootView;
         }
     }
@@ -120,7 +118,7 @@ public class Utilidades extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             //retornar para as tabs específicas
-            switch (position){
+            switch (position) {
                 case 0:
                     TabMapa mapa = new TabMapa();
                     return mapa;

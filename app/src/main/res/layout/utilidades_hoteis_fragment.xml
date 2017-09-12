@@ -13,7 +13,7 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/back3">
+            android:background="@drawable/background3">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -21,35 +21,35 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/txvfarmacia_joacaba"
+                    android:id="@+id/txvjaragua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Farmácia Joaçaba"
+                    android:layout_marginTop="0dp"
+                    android:text="Hotel Jaraguá"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/txvendereco_farmacia_joacaba"
+                    android:id="@+id/txvendereco_jaragua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="60dp"
-                    android:text="Av 15 de Novembro, 674 - Centro – Joaçaba"
+                    android:layout_marginTop="30dp"
+                    android:text="Rua Francisco Lindner, 350 – Centro – Joaçaba"
                     android:textColor="#ffffff" />
 
                 <TextView
-                    android:id="@+id/txvtelefone_farmacia_joacaba"
+                    android:id="@+id/txvtelefone_jaragua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
-                    android:text="(49) 3522-1675 "
+                    android:layout_marginTop="50dp"
+                    android:text="(49) 3527-7300 "
                     android:textColor="#ffffff" />
             </RelativeLayout>
 
@@ -60,35 +60,35 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/txvfarmacia_herval"
+                    android:id="@+id/txvcomercio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="40dp"
-                    android:text="Farmácia Herval"
+                    android:text="Hotel do Comércio"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/txvendereco_farmacia_herval"
+                    android:id="@+id/txvendereco_comercio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="60dp"
-                    android:text="Rua XV de Novembro – Centro – Joaçaba"
+                    android:text="Rua Sete de Setembro - 183 – Centro – Joaçaba"
                     android:textColor="#ffffff" />
 
                 <TextView
-                    android:id="@+id/txvtelefone_farmacia_herval"
+                    android:id="@+id/txvtelefone_comercio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="80dp"
-                    android:text="(49) 3522 1902 "
+                    android:text="(49) 3522-2211 "
                     android:textColor="#ffffff" />
             </RelativeLayout>
 
@@ -99,35 +99,35 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/txv_sesi"
+                    android:id="@+id/txvhotel_joacaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="40dp"
-                    android:text="Sesi Farmácias"
+                    android:text="Hotel Joaçaba"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/txvendereco_sesi"
+                    android:id="@+id/txvendereco_hotel_joacaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="60dp"
-                    android:text="Rua Getúlio Vargas - 229 – Centro – Joaçaba"
+                    android:text="Rua Fernando Ferrari – 106 - Bairro Nossa Senhora de Lourdes – Joaçaba"
                     android:textColor="#ffffff" />
 
                 <TextView
-                    android:id="@+id/txvtelefone_sesi"
+                    android:id="@+id/txvtelefone_hotel_joacaba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="80dp"
-                    android:text="(49) 3522 2899 "
+                    android:layout_marginTop="100dp"
+                    android:text="(49) 3521-4131 | 3521-1779 | 3522-6526"
                     android:textColor="#ffffff" />
             </RelativeLayout>
 
@@ -138,18 +138,36 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/txvTaxis"
-                    android:layout_width="match_parent"
+                    android:id="@+id/txvhotel_bordignon"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="40dp"
-                    android:gravity="center"
-                    android:text="PONTOS DE TÁXI"
+                    android:text="Hotel Bordignon"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/txvendereco_hotel_bordignon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:text=" Av. Santa Teresinha – 2990 – Centro – Joaçaba"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/txvtelefone_hotel_bordignon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:text="(49) 3521-3959  "
+                    android:textColor="#ffffff" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -159,37 +177,39 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/txvponto_taxi"
+                    android:id="@+id/txvhotel_farol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
-                    android:text="Ponto de Táxi 2"
+                    android:layout_marginTop="40dp"
+                    android:text="Hotel Farol"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/txvendereco_ponto_taxi"
+                    android:id="@+id/txvendereco_hotel_farol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="50dp"
-                    android:text="Av. XV de novembro – Centro – Joaçaba"
+                    android:layout_marginTop="60dp"
+                    android:text=" Rua Getúlio Vargas - 2025 - Flor da Serra - Joaçaba"
                     android:textColor="#ffffff" />
 
                 <TextView
-                    android:id="@+id/txvtelefone_taxi"
+                    android:id="@+id/txvtelefone_hotel_farol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="70dp"
-                    android:text="(49) - 3522-0320 "
+                    android:layout_marginTop="80dp"
+                    android:text="(49) 3521-2760 "
                     android:textColor="#ffffff" />
             </RelativeLayout>
+
         </FrameLayout>
+
     </FrameLayout>
 </ScrollView>
