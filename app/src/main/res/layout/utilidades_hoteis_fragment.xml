@@ -208,7 +208,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
                             android:clickable="false"
-                            android:text="(49) 3521-4131 | 3521-1779 | 3522-6526"
+                            android:text="(49) 3521-4131"
                             android:autoLink="phone"
                             android:textColorLink="@color/colorPrimaryDark"
                             android:textSize="13sp" />

@@ -48,10 +48,6 @@ public class Utilidades extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
-        Toast.makeText(getApplicationContext(),"Clique nos telefones para poder realizar ligações", Toast.LENGTH_LONG).show();
-
-
     }
 
     @Override

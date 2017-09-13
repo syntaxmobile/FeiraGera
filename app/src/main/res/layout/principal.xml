@@ -354,7 +354,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="Oi, somos a Syntax Mobile e desenvolvemos este app!"
+                        android:text="Olá, somos a Syntax Mobile e desenvolvemos este app!"
                         android:textColor="@color/branco"
                         android:textSize="13sp" />
 

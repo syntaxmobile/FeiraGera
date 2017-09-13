@@ -1,7 +1,6 @@
 package br.com.syntaxmobile.feiragera;
 
 import android.content.Intent;
-import android.media.Image;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -49,7 +48,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         village.setOnClickListener(this);
         contassesc = (ImageView) findViewById(R.id.ivContassesc);
         contassesc.setOnClickListener(this);
-        tricam= (ImageView) findViewById(R.id.ivTricam);
+        tricam = (ImageView) findViewById(R.id.ivTricam);
         tricam.setOnClickListener(this);
         redux = (ImageView) findViewById(R.id.ivRedux);
         redux.setOnClickListener(this);
@@ -69,7 +68,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         ifc.setOnClickListener(this);
         inovale = (ImageView) findViewById(R.id.ivInovale);
         inovale.setOnClickListener(this);
-        tirol= (ImageView) findViewById(R.id.ivTirol);
+        tirol = (ImageView) findViewById(R.id.ivTirol);
         tirol.setOnClickListener(this);
         botequim = (ImageView) findViewById(R.id.ivBotequim);
         botequim.setOnClickListener(this);
@@ -129,7 +128,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
         tresm.setOnClickListener(this);
 
         //Mostra uma mensagem na parte inferior da tela para clicar na imagem para abrir o respectivo site do expositor
-        Toast.makeText(getApplicationContext(),"Clique na imagem para abrir o site do Expositor", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Clique na logomarca para abrir o site do expositor.", Toast.LENGTH_LONG).show();
     }
 
     //Criando uma intent para cada logo para abrir sua respectiva página. A ACTION_VIEW mostra direto do navegador padrão do aparelho do usuário
@@ -139,7 +138,7 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
 
         //Expositores
 
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.ivPref_joacaba:
                 Intent it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.joacaba.sc.gov.br"));
                 startActivity(it);
@@ -325,11 +324,6 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
                 startActivity(it);
                 break;
 
-            case R.id.ivEstrelatur:
-                //it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.andradeconstrucoes.com.br/"));
-                //startActivity(it);
-                break;
-
             case R.id.ivEneagrama:
                 it = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ieneagrama.com.br/"));
                 startActivity(it);
@@ -407,6 +401,5 @@ public class Expositores extends AppCompatActivity implements View.OnClickListen
                 startActivity(it);
                 break;
         }
-
     }
 }
