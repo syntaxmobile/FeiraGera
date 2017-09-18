@@ -146,6 +146,16 @@
                         android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/txtDiaDoisDescricao1.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaDoisDescricao1.1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
                         android:id="@+id/txtDiaDoisDescricao2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -222,7 +232,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraConhecimento"
+                        android:text="@string/localSalaGeraInovacao"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -304,7 +314,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraExperiencia"
+                        android:text="@string/localSalaGeraExperiencia"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -415,28 +425,6 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/txtDiaTresLocal1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="16dp"
-                        android:layout_marginTop="16dp"
-                        android:clickable="false"
-                        android:text="@string/localGeraNegocios"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/txtDiaTresDescricao0"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:clickable="false"
-                        android:text="@string/DiaTresDescricao0"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="12sp" />
-
-                    <TextView
                         android:id="@+id/txtDiaTresLocal2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -525,7 +513,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraConhecimento"
+                        android:text="@string/localSalaGeraInovacao"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -537,6 +525,16 @@
                         android:layout_marginTop="8dp"
                         android:clickable="false"
                         android:text="@string/DiaTresDescricao8"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtDiaTresDescricao8.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:clickable="false"
+                        android:text="@string/DiaTresDescricao81"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp" />
 
@@ -581,23 +579,13 @@
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/txtDiaTresDescricao13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="1dp"
-                        android:clickable="false"
-                        android:text="@string/DiaTresDescricao13"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="12sp" />
-
-                    <TextView
                         android:id="@+id/txtDiaTresLocal4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraExperiencia"
+                        android:text="@string/localSalaGeraExperiencia"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -726,7 +714,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraConhecimento"
+                        android:text="@string/localSalaGeraInovacao"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -748,7 +736,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="@string/localEspacoGeraExperiencia"
+                        android:text="@string/localSalaGeraExperiencia"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="12sp"
                         android:textStyle="bold" />
