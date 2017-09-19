@@ -27,7 +27,7 @@
     <!-- DIA 1 - QUINTA-FEIRA -->
     <string name="DiaUmDescricao1">19h00 | Recepção dos Convidados</string>
     <string name="DiaUmDescricao2">20h00 | Cerimônia de Abertura Oficial</string>
-    <string name="DiaUmDescricao3">20h30 | Palestra : "Inovação e desenvolvimento: o caso de Valência, Espanha" com Cristóbal Miralles, palestrante espanhol.</string>
+    <string name="DiaUmDescricao3">20h30 | Palestra : Inovação e desenvolvimento: o caso de Valência, Espanha, com Cristóbal Miralles, palestrante espanhol.</string>
 
     <!-- Textos da tela PROGRAMAÇÃO -->
     <!-- DIA 2 - SEXTA-FEIRA -->
@@ -46,10 +46,10 @@
     <!-- LOCAL Sala GERA Inovação -->
     <string name="DiaDoisDescricao9">10h00 às 11h00 | O que é a engenharia Biomédica? | (UNOESC)</string>
     <string name="DiaDoisDescricao10">11h00 às 12h00 | Empreendedorismo: cases de sucesso | (UNOESC)</string>
-    <string name="DiaDoisDescricao11">13h30 às 14h30 | O "BRDE Inova" e o apoio para investimentos em inovação | (BRDE)</string>
+    <string name="DiaDoisDescricao11">13h30 às 14h30 | O BRDE Inova e o apoio para investimentos em inovação | (BRDE)</string>
     <string name="DiaDoisDescricao12">15h00 às 16h00 | Inovação aberta: Abordagem de gestão da inovação com ênfase no fortalecimento de interfaces | (IRANI)</string>
     <string name="DiaDoisDescricao13">16h30 às 17h30 | Lixo Orgânico: Sustentabilidade e Geração de Negócios | (Rafael da Rosa)</string>
-    <string name="DiaDoisDescricao14">18h00 às 19h00| A Exploração do Espaço : Discutindo Cenários Prospectivos de Utilização da Tecnologia Espacial - Oportunidades e Parcerias | (Paulo Batista)</string>
+    <string name="DiaDoisDescricao14">18h00 às 19h00| A Exploração do Espaço: Discutindo Cenários Prospectivos de Utilização da Tecnologia Espacial - Oportunidades e Parcerias | (Paulo Batista)</string>
     <string name="DiaDoisDescricao15">19h30 às 20h30 | Fotografia Digital: Stop Motion | (Arnaldo Telles Ferreira)</string>
 
     <!-- LOCAL Sala GERA Experiência -->
@@ -66,16 +66,16 @@
 
     <!-- LOCAL Arena do Conhecimento -->
     <string name="DiaTresDescricao1">10h00 às 11h00 | Panorama do cenário energético no Brasil |(UNOESC)</string>
-    <string name="DiaTresDescricao2">11h00 às 12h00 | Hortas Urbanas para ambientes pequenos| (UNOESC)</string>
+    <string name="DiaTresDescricao2">11h00 às 12h00 | Hortas Urbanas para ambientes pequenos | (UNOESC)</string>
     <string name="DiaTresDescricao3">13h30 às 15h30 | Wanna Kick Ass | (GLÓBULO)</string>
     <string name="DiaTresDescricao4">16h00 às 17h00 | Colégio Marista Frei Rogério: Inovando em conhecimento em prol da comunidade | (Colégio Frei Rogério)</string>
     <string name="DiaTresDescricao5">17h00 às 18h00 | Manutenção Preventiva: Hardware e Software | (Juliano Roque Costa)</string>
     <string name="DiaTresDescricao6">19h00 às 20h00 | Caminhos da Inovação na gestão Pública. Mobilização de atores e capitais para a inovação. Experiências inovadoras em Gestão Pública | (ACIOC/UNOESC/FECAM)</string>
-    <string name="DiaTresDescricao7">20h15 às 21h30 | Talk Show GERA StartUps | (ACIOC)</string>
+    <string name="DiaTresDescricao7">20h15 às 21h30 | Talk Show GERA Startups | (ACIOC)</string>
 
     <!-- LOCAL Sala GERA Inovação -->
-    <string name="DiaTresDescricao8">10h00 às 11h00 | Oficina: Business Plan for Start Ups | (UNOESC)</string>
-    <string name="DiaTresDescricao81">11h00 às 12h00 | Oficina: Business Plan for Start Ups | (UNOESC)</string>
+    <string name="DiaTresDescricao8">10h00 às 11h00 | Oficina: Business Plan for Startups | (UNOESC)</string>
+    <string name="DiaTresDescricao81">11h00 às 12h00 | Oficina: Business Plan for Startups | (UNOESC)</string>
     <string name="DiaTresDescricao9">13h30 às 14h30 | Conheça o CRM: Mecanismo de Gestão de Relacionamento com o Cliente | (SENIOR do Contestado)</string>
     <string name="DiaTresDescricao10">15h00 às 16h00 | Luzerna: Uma terra de oportunidades | (Prefeitura de Luzerna)</string>
     <string name="DiaTresDescricao11">16h30 às 17h30 | Bosch: Novas tecnologias automotivas | (BOSCH)</string>
