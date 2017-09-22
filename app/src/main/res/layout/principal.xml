@@ -242,7 +242,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginTop="16dp"
                         android:clickable="false"
-                        android:text="Informações sobre hotéis, restaurantes, táxis e farmácias."
+                        android:text="Informações sobre ônibus gratuito, hotéis, restaurantes, táxis e farmácias."
                         android:textColor="@color/branco"
                         android:textSize="13sp" />
 

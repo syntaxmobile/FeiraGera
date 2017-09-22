@@ -117,8 +117,8 @@ public class Utilidades extends AppCompatActivity {
             //retornar para as tabs específicas
             switch (position) {
                 case 0:
-                    TabMapa mapa = new TabMapa();
-                    return mapa;
+                    TabOnibus onibus = new TabOnibus();
+                    return onibus;
 
                 case 1:
                     TabHoteis hoteis = new TabHoteis();
@@ -147,7 +147,7 @@ public class Utilidades extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "MAPA";
+                    return "ÔNIBUS";
                 case 1:
                     return "HOTÉIS";
                 case 2:
